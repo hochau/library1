@@ -13,5 +13,8 @@ public class Library1TestUtil {
         Log.e(CommonTestUtil.class.getName(),"Library1TestUtil");
     }
 
+    public static String getTag(){
+        return "这是 Library1 库";
+    }
 
 }
